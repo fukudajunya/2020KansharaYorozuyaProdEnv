@@ -81,7 +81,7 @@ ret_msg_mv = {
   "template": {
     "type" : "carousel",
     "columns": [{
-                 "title": "Alegría振り動画",
+                 "title": "NAZ振り動画",
                  "text": "それぞれ有効に使ってね",
                  "actions": 
                         [{"type": "uri",
@@ -164,7 +164,7 @@ ret_msg_mv = {
 // 購入申請をQuickReplyで実装
 quick_rep_purchase = [{
   "type": "text",
-  "text": "どれを購入しますか？下のメニューから選択してください。\n\n・鳴子/片方:￥1,300\n・鳴子/1組:￥2,500\n・衣装:￥22,000",
+  "text": "どれを購入しますか？下のメニューから選択してください。\n\n・鳴子/片方:￥1,300\n・鳴子/1組:￥2,500\n・衣装:￥20,000",
   "quickReply": {
     "items": [
       {
@@ -232,14 +232,6 @@ quick_rep_purchase_cancel = [{
           "label": "さくよさ",
           "text" : "さくよさ(ad)"
         }
-      },
-      {
-        "type": "action",
-        "action": {
-          "type": "message",
-          "label": "能登よさこい",
-          "text" : "能登よさこい(ad)"
-        }
       }
     ]
   }
@@ -287,8 +279,8 @@ quick_rep_payment = [{
         "type": "action",
         "action": {
           "type": "message",
-          "label": "能登よさこい",
-          "text" : "能登よさこい(p)"
+          "label": "料金",
+          "text" : "料金"
         }
       }
     ]
@@ -332,14 +324,6 @@ quick_rep_cancel_payment = [{
           "label": "さくよさ",
           "text" : "さくよさ(pd)"
         }
-      },
-      {
-        "type": "action",
-        "action": {
-          "type": "message",
-          "label": "能登よさこい",
-          "text" : "能登よさこい(pd)"
-        }
       }
     ]
   }
@@ -359,12 +343,12 @@ quick_rep_receive = [{
           "text" : "さくよさ(a)"
         }
       },
-     {
+      {
         "type": "action",
         "action": {
           "type": "message",
-          "label": "能登よさこい",
-          "text" : "能登よさこい(a)"
+          "label": "担当を教えて",
+          "text" : "教えて担当さん"
         }
       }
     ]
@@ -383,14 +367,6 @@ quick_rep_participant = [{
           "type": "message",
           "label": "さくよさ",
           "text" : "さくよさ(e)"
-        }
-      },
-     {
-        "type": "action",
-        "action": {
-          "type": "message",
-          "label": "能登よさこい",
-          "text" : "能登よさこい(e)"
         }
       }
     ]
@@ -447,24 +423,8 @@ quick_rep = [{
         "type": "action",
         "action": {
           "type": "message",
-          "label": "祭りの持ち物確認",
-          "text" : "持ち物チェック"
-        }
-      },
-      {
-        "type": "action",
-        "action": {
-          "type": "message",
           "label": "口座情報が知りたい！",
           "text" : "振込口座"
-        }
-      },
-      {
-        "type": "action",
-        "action": {
-          "type": "message",
-          "label": "イベントに関して分からないことがある！",
-          "text" : "イベント連絡"
         }
       },
       { // 参加者リストを追加
@@ -473,14 +433,6 @@ quick_rep = [{
           "type": "message",
           "label": "イベントの参加者を知りたい！",
           "text": "参加者リスト"
-        }
-      },
-      {
-        "type": "action",
-        "action": {
-          "type": "message",
-          "label": "振り動画を見たい！",
-          "text": "振り動画"
         }
       }
     ]

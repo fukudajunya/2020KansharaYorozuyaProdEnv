@@ -22,7 +22,7 @@ function eventApplicationInfo(userId,userName,item,price,setToken){
         "replyToken" : setToken, 
         "messages" : [{
           "type" : "text",
-          "text" : item + "の参加申請を受け付けました。\n\n参加申請をキャンセルする場合はメニューの「その他、購入/参加申請を取り消したい」から取り消しをしてください。"
+          "text" : item + "の参加申請を受け付けました。\n\n参加申請をキャンセルする場合はメニューの[その他]→[購入/参加申請を取り消したい]から取り消しをしてください。"
         }]
       };
       Logger.log(data)
