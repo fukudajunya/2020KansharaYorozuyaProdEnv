@@ -70,21 +70,12 @@ function doPost(e) {
       case "早く見たいなぁ" :
         var data = returnMessage(token, "もう少し待ってね！");
         break;
-      case "キャンセル連絡" :
-        // var data = returnMessage(token, "現在参加できるイベントはありません。")
-        var data =returnMessage(token, "サークルスクエアで不参加への更新をお願いします。\nhttps://www.c-sqr.net/cs75424/News.html\n\n★ゑまつりについて、下記の二人にも連絡してね。\n\n■祭り担当:みなと\nhttps://line.me/ti/p/QFNJY_V7VK\n■インスト担当:たらこ\nhttps://line.me/ti/p/umUggC9ucM");
-        break;  
-      case "サークルスクエア":
-        var data = returnMessage(token, "イベント参加はサークルスクエアより参加表明をお願いします。\n\nhttps://www.c-sqr.net/cs75424/News.html");
-        break;
       case "教えて担当さん":
         var data = returnMessage(token, "★ゑまつりの担当は以下の2人です！相談はお二人へ！\n■祭り担当:みなと\nhttps://line.me/ti/p/QFNJY_V7VK\n■インスト担当:たらこ\nhttps://line.me/ti/p/umUggC9ucM\n\n");
         break;
-      /*
       case "衣装の着方を教えて！":
-        var data = returnMessage(token, "https://youtu.be/WV-yEM0DHhY");
+        var data = returnMessage(token, "作成中です！しばらく待ってね。");
         break;
-      */
       case "振り動画" :
         var data = returnMessage(token, "振り動画は制作中です！しばらく待ってね。");
         /*

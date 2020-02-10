@@ -21,7 +21,7 @@ function cancelPaymentStatus(userId,userName,item,setToken){
           "replyToken" : setToken, 
           "messages" : [{
             "type" : "text",
-            "text" : "直近で" + item + "の購入/参加申請はされていません。キャンセルできませんでした。"
+            "text" : "直近で" + item + "の支払申請はされていません。キャンセルできませんでした。"
           }]
         };
         return data;
@@ -31,7 +31,7 @@ function cancelPaymentStatus(userId,userName,item,setToken){
         "replyToken" : setToken, 
         "messages" : [{
           "type" : "text",
-          "text" : "直近で" + item + "の購入/参加申請はされていません。キャンセルできませんでした。"
+          "text" : "直近で" + item + "の支払申請はされていません。キャンセルできませんでした。"
         }]
       };
       return data;
