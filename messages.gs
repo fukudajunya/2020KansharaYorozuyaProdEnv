@@ -290,7 +290,7 @@ quick_rep_payment = [{
 // 支払い確認取消をQuickReplyで実装
 quick_rep_cancel_payment = [{
   "type": "text",
-  "text": "支払い確認を取り消す場合は、取り消す備品を選択してください。",
+  "text": "支払い確認を取り消す場合は、取り消す備品/イベント名を選択してください。",
   "quickReply": {
     "items": [
       {
