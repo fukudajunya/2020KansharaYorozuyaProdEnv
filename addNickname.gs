@@ -4,7 +4,7 @@ function addNickname(userId, inputData, setToken){
   var ss = sheet.getSheets()[1];
   var lastRow = ss.getLastRow();
   
-  var command = inputData.split('　');
+  var command = inputData.split(/\s+/);
   var length = command.length;
   
   
