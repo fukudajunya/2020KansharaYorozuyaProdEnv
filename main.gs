@@ -74,7 +74,7 @@ function doPost(e) {
           var data = returnMessage(token, "もう少し待ってね！");
           break;
         case "教えて担当さん":
-          var data = returnMessage(token, "★さくよさの担当は以下の2人です！相談はお二人へ！\n■祭り担当:みなと\n■インスト担当:みんぽう\n");
+          var data = returnMessage(token, "★さくよさの担当は以下の2人です！相談はお二人へ！\n■祭り担当:みなと(http://line.me/ti/p/QFNJY_V7VK)\n■インスト担当:みんぽう(https://line.me/ti/p/27yDDATN_G)\n");
           break;
         case "衣装の着方を教えて！":
           var data = returnMessage(token, "作成中です！しばらく待ってね。");
