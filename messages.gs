@@ -339,7 +339,7 @@ quick_rep_receive = [{
         "type": "action",
         "action": {
           "type": "message",
-          "label": "さくよさ",
+          "label": "さくよさ(4/5(日))",
           "text" : "さくよさ(a)"
         }
       },
