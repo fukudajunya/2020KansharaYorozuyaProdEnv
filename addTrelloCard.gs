@@ -3,7 +3,7 @@ function addCard(userId, place, setToken){
   * 本番用ボードにカードを作成する
   *
   */
-  var sheet = SpreadsheetApp.openById("1OjPRgoho1rcuaziwnEjsMrQHTPvY0kYgvvsArI1tfE0");
+  var sheet = SpreadsheetApp.openById("1VAZjeiI1xCLjWdxEeUx5o3kfeA8y2EyxT3m1t6RDr-o");
   var nicknameSheet = sheet.getSheets()[1];
   var nicknameLastRow = nicknameSheet.getLastRow();
   var count = nicknameLastRow + 2;

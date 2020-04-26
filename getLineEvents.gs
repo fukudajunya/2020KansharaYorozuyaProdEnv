@@ -1,5 +1,5 @@
 function follow(e){
-  var spredsheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheet/ccc?key=1OjPRgoho1rcuaziwnEjsMrQHTPvY0kYgvvsArI1tfE0");
+  var spredsheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheet/ccc?key=1VAZjeiI1xCLjWdxEeUx5o3kfeA8y2EyxT3m1t6RDr-o");
   var sheet = spredsheet.getSheetByName('あだ名管理シート');
   var userId = e.source.userId;
   var userName = getUserName(userId);
@@ -7,7 +7,7 @@ function follow(e){
 }
 
 function unfollow(e){
-  var spreadsheet = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheet/ccc?key=1OjPRgoho1rcuaziwnEjsMrQHTPvY0kYgvvsArI1tfE0'); 
+  var spreadsheet = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheet/ccc?key=1VAZjeiI1xCLjWdxEeUx5o3kfeA8y2EyxT3m1t6RDr-o'); 
   var sheet = spredsheet.getSheetByName('あだ名管理シート');
   var userId = e.source.userId;
   var userName = getUserName(userId);

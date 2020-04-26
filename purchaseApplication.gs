@@ -1,6 +1,6 @@
 // 購入申請
 function purchaseApplicationInfo(userId,userName,item,price,setToken){
-  var sheet = SpreadsheetApp.openById("1OjPRgoho1rcuaziwnEjsMrQHTPvY0kYgvvsArI1tfE0");
+  var sheet = SpreadsheetApp.openById("1VAZjeiI1xCLjWdxEeUx5o3kfeA8y2EyxT3m1t6RDr-o");
   var ss = sheet.getSheets()[0];
   var lastRow = ss.getLastRow();
   var date = new Date();

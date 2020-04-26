@@ -15,7 +15,7 @@ function postMessage(value){
         'fallback': '物品/イベント購入管理シート更新通知',
         'color': '#36a64f',
         'title': '物品/イベント購入管理シート更新通知',
-        'title_link': 'https://docs.google.com/spreadsheets/d/1OjPRgoho1rcuaziwnEjsMrQHTPvY0kYgvvsArI1tfE0/edit#gid=0',
+        'title_link': 'https://docs.google.com/spreadsheets/d/1VAZjeiI1xCLjWdxEeUx5o3kfeA8y2EyxT3m1t6RDr-o/edit#gid=0',
         'text': value,                                                 
        }
       ]

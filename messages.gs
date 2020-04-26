@@ -165,6 +165,7 @@ quick_rep_purchase_cancel = [{
           "text" : "衣装(ad)"
         }
       },
+      /*
       {
         "type": "action",
         "action": {
@@ -172,7 +173,8 @@ quick_rep_purchase_cancel = [{
           "label": "さくよさ",
           "text" : "さくよさ(ad)"
         }
-      }
+      },
+      */
     ]
   }
 }]
@@ -207,6 +209,7 @@ quick_rep_payment = [{
           "text" : "衣装(p)"
         }
       },
+      /*
       {
         "type": "action",
         "action": {
@@ -215,6 +218,7 @@ quick_rep_payment = [{
           "text" : "さくよさ(p)"
         }
       },
+      */
       {
         "type": "action",
         "action": {
@@ -257,6 +261,7 @@ quick_rep_cancel_payment = [{
           "text" : "衣装(pd)"
         }
       },
+      /*
       {
         "type": "action",
         "action": {
@@ -264,7 +269,8 @@ quick_rep_cancel_payment = [{
           "label": "さくよさ",
           "text" : "さくよさ(pd)"
         }
-      }
+      },
+      */
     ]
   }
 }]
@@ -275,6 +281,7 @@ quick_rep_receive = [{
   "text": "どのイベントに参加するか選択してください。\n申請後は参加費の振込をお願いします。",
   "quickReply": {
     "items": [
+      /*
       {
         "type": "action",
         "action": {
@@ -283,14 +290,17 @@ quick_rep_receive = [{
           "text" : "さくよさ(a)"
         }
       },
+      */
+      /*
       {
         "type": "action",
         "action": {
           "type": "message",
-          "label": "担当を教えて",
-          "text" : "教えて担当さん"
+          "label": "担当を教えて(さくよさ)",
+          "text" : "教えて担当さん(さくよさ)"
         }
-      }
+      },
+      */
     ]
   }
 }]
@@ -301,6 +311,7 @@ quick_rep_participant = [{
   "text": "どのイベントの参加者リストを参照するか選択してください。",
   "quickReply": {
     "items": [
+      /*
       {
         "type": "action",
         "action": {
@@ -308,7 +319,8 @@ quick_rep_participant = [{
           "label": "さくよさ",
           "text" : "さくよさ(e)"
         }
-      }
+      },
+      */
     ]
   }
 }]
